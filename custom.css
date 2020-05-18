@@ -1,0 +1,85 @@
+.main-container {
+    width: 250px;
+    height: auto;
+    padding: 20px 30px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 #000;
+    margin: auto;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(to bottom, #1b262c, #1c5f83);
+}
+
+/*body {
+    background-image: linear-gradient(to bottom left, #1b262c, #1d4f69);
+}
+*/
+
+.gitlogo {
+    margin: 0px;
+}
+
+nav {
+    margin-bottom: 0px;
+}
+
+body {
+    padding: 0px;
+}
+
+.button {
+    background-color: rgb(200, 200, 200);
+    width: 200px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px black;
+}
+
+h1 {
+    color: rgb(235, 235, 235);
+    letter-spacing: 15px;
+    text-shadow: 0 0 20px black;
+}
+
+ul {
+    margin-left: auto;
+    padding: 6%;
+}
+
+button {
+    text-align: center;
+}
+
+input {
+    margin: auto;
+    text-align: center;
+    padding: 6%;
+    transition: 0.5s;
+}
+
+input:hover {
+    box-shadow: 0 0 5px black;
+}
+
+li {
+    text-align: center;
+}
+
+header {
+    padding: 0px;
+}
+
+.nav-bar {
+    background-color: #3282b8;
+    margin-top: auto;
+    box-shadow: 0 0 40px 0 #0f4c75;
+}
