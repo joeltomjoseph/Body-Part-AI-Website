@@ -6,6 +6,7 @@
     border-radius: 10px;
     box-shadow: 0 0 50px 0 #000;
     margin: auto;
+    transition: all 1s ease-in-out;
 }
 
 html {
@@ -34,14 +35,12 @@ body {
     padding: 0px;
 }
 
-.button {
-    background-color: rgb(200, 200, 200);
-    width: 200px;
-    transition: 0.5s;
-}
-
-.button:hover {
-    box-shadow: 0 0 10px black;
+button {
+    background-color: rgb(87, 87, 87);
+    width: 150px;
+    transition: .5s;
+    border: none;
+    color: rgb(235, 235, 235);
 }
 
 h1 {
